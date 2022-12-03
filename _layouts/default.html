@@ -7,11 +7,20 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="narrow">
+      <div class="title">
+        <a id="link-home" href="/">
+          <p>ChuckGreenman.com</p>
+        </a>
       </div>
-    </main>
+      
+      
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+    </div>
 
     {%- include footer.html -%}
 

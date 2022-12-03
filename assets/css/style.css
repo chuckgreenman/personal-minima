@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+body {
+	box-sizing: border-box;
+	background: #fff;
+  padding: 10px;
+}
+
+.narrow {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: 'Lusitana', serif;
+}
+
+h1 {
+  font-family: 'Jost', sans-serif;
+}
+
+.form {
+  padding: 10px;
+  border: 2px solid #e4d4be;
+}
+
+.info-box {
+  display: flex;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+  color: #3a4482;
+}
+
+.info-box .postIndex {
+  margin-right: 10px;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #ded2bc;
+}
+
+
+.postIndex::after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  bottom: -10px;
+  height: 1.5rem;
+  width: 4px;
+  background: #ded2bc;
+}
+
+#link-home {
+  color: black;
+}
+
+a {
+  color: #3a4482;
+}
+
+img {
+  width: 100%;
+}
+
+.home {
+  font-size: 15px;
+}
+
+.tagline {
+  font-size: 15px;
+}
